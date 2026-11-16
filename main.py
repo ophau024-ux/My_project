@@ -34,11 +34,13 @@ def weather():
     print("detected: very hot shit")
   else:
     print("ooommmggg")
+  #visualisation 
   x = temp
   y = temp
   plt.plot(temp,1)
   plt.scatter(temp,1)
   plt.show()
 
+#Running
 if __name__=="__main__":
     weather()
